@@ -1,5 +1,8 @@
 # Delay_the_inevitable
-
+This game is a realization of Linnchoeuh and Elania.   
+This achievement is on the occasion of the Ludum Dare 50.  
+The theme is delay the inevitable.  
+This game is made using the LibLapin, in C.  
 
 # Installing liblapin on your machine
 
