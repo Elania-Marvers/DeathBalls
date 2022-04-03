@@ -1,4 +1,4 @@
-# Delay_the_inevitable
+# DeathBalls
 This game is a realization of Linnchoeuh and Elania.   
 This achievement is on the occasion of the Ludum Dare 50.  
 The theme is delay the inevitable.  
