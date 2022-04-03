@@ -20,5 +20,8 @@ void start_game(t_prog *prog)
       prog->e = 0.0;
       prog->game->score = 0;
       spawn_horde(prog);
+
+      prog->game->pposx = rand() % (NUM_OF_LINE / 2);
+      prog->game->pposy = rand() % 2;
     }
 }
