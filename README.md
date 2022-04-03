@@ -4,6 +4,14 @@ This achievement is on the occasion of the Ludum Dare 50.
 The theme is delay the inevitable.  
 This game is made using the LibLapin, in C.  
 
+# Controls  
+To start the game press space when the screen tells you to.  
+You control your player using the directional arrows, up allows you to go to the top of the screen, down to the bottom.  
+To go right -> left <-.  
+
+# Goal  
+In this game you have to dodge the purple balls to get the highest score possible.  
+  
 # Installing liblapin on your machine
 
 ## 0. Prerequisites
