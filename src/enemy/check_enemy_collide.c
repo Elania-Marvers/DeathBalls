@@ -8,13 +8,14 @@ bool check_enemy_collide(t_bunny_pool *enemy,
 
 	i = 0;
 	while (i < NBENEMIES)
-	{
-		enemy_data = (t_enemy*) enemy[i].data;
-		if (enemy_data->enemy_pos == player_pos &&
-			(enemy_data->zpos + ENTITIES_RADIUS) > (PLAYER_POSZ - ENTITIES_RADIUS) &&
-			(enemy_data->zpos - ENTITIES_RADIUS) < (PLAYER_POSZ + ENTITIES_RADIUS))
-			return (true);
-		i++;
-	}
+	  {
+	    enemy_data = (t_enemy*) enemy[i].data;
+	    if (enemy_data->enemy_pos == player_pos &&
+		enemy_data->show != false && 
+		(enemy_data->zpos + ENTITIES_RADIUS) > (PLAYER_POSZ - ENTITIES_RADIUS) &&
+		(enemy_data->zpos - ENTITIES_RADIUS) < (PLAYER_POSZ + ENTITIES_RADIUS))
+	      return (true);
+	    i++;
+	  }
 	return (false);
 }
