@@ -6,6 +6,7 @@
 #include "macro.h"
 #include "time.h"
 #include "spawn_enemy.h"
+void spawn_horde (t_prog *prog);
 
 void start_game(t_prog *prog);
 

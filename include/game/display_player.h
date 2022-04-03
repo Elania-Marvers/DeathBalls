@@ -4,7 +4,6 @@
 #include "game.h"
 #include "set_zsphere.h"
 #include <lapin.h>
-
 void display_player(t_bunny_zpixelarray *piz,
 					t_game *game);
 

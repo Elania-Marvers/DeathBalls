@@ -7,6 +7,12 @@
 #include "time.h"
 #include "spawn_enemy.h"
 
+void set_game_line(t_bunny_zpixelarray *piz,
+				   t_game *game);
+void display_player(t_bunny_zpixelarray *piz,
+					t_game *game);
+
+
 t_game *setup_struct_game(void);
 
 t_bunny_zpixelarray *new_zpixelarray(int  width,
