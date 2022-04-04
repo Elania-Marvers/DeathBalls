@@ -5,4 +5,6 @@
 
 t_game *setup_struct_game(void);
 
+void swap_int (int *a, int *b);
+
 #endif

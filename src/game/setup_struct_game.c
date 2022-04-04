@@ -1,6 +1,6 @@
 #include	"setup_struct_game.h"
 
-static void swap_int (int *a, int *b)
+void swap_int (int *a, int *b)
 {
   int tmp = *a;
   *a = *b;

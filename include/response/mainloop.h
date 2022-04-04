@@ -11,6 +11,7 @@
 #include 		"move_enemy.h"
 #include 		"spawn_enemy.h"
 #include		"check_enemy_collide.h"
+#include		"spawn_pipe.h"
 
 t_bunny_response	mainloop(void		*p);
 void set_zpixel(t_bunny_zpixelarray *piz,

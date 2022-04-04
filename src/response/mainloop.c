@@ -51,7 +51,13 @@ t_bunny_response	mainloop(void		*p)
       if (prog->e > 1000.0 / increment_speed)
 	{
 	  prog->e = 0.0;
-	  spawn_horde(prog);
+    if (rand() % 10 == 0)
+    {
+      spawn_pipe(prog->game, prog->game->enemies);
+      prog->e = -2000.0 / increment_speed;
+    }
+    else
+      spawn_horde(prog);
 	}
       else
 	prog->e += 1.0;
